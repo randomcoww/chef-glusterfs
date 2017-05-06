@@ -32,7 +32,7 @@ class ChefGlusterfs
             end
           end
 
-        end if current_resource.content.emtpy?
+        end if current_resource.content.empty?
 
         ## this should get written after initial peer probe if not already there
         set_current_glusterd_info
