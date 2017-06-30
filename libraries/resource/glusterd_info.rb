@@ -11,7 +11,7 @@ class ChefGlusterfs
       property :key, String
 
       property :content, String, default: lazy { get_content }
-      property :path, String, default: lazy { Glusterfs::GLUSTERD_INFO_PATH }
+      property :path, String, default: lazy { GlusterfsHelper::GLUSTERD_INFO_PATH }
 
       private
 
